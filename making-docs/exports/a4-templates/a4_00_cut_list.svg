@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <style>
+    .cut { fill: none; stroke: #000; stroke-width: 0.35; }
+    .hole { fill: none; stroke: #000; stroke-width: 0.35; }
+    .guide { fill: none; stroke: #000; stroke-width: 0.25; stroke-dasharray: 2 1.5; }
+    .label { font-family: Arial, sans-serif; fill: #000; font-weight: 700; }
+    .note { font-family: Arial, sans-serif; fill: #000; }
+    .tiny { font-family: Arial, sans-serif; fill: #000; }
+  </style>
+  <rect x="0" y="0" width="210" height="297" fill="white"/>
+  <rect class="guide" x="5" y="5" width="200" height="287"/>
+  <text class="label" x="8" y="12" font-size="4.5">A4 손재단 수량표</text>
+  <text class="note" x="8" y="18" font-size="3.1">인쇄 설정: A4, 실제 크기 100%, 페이지 맞춤/축소 금지. 아래 50mm 선을 자로 확인.</text>
+  <line class="cut" x1="8" y1="24" x2="58" y2="24"/>
+  <text class="note" x="8" y="28" font-size="3">50mm scale check</text>
+  <text class="note" x="12" y="42" font-size="4">1. 먼저 테스트 쿠폰 1장을 잘라 실제 충전기/케이블/하드보드 두께를 확인합니다.</text>
+<text class="note" x="12" y="52" font-size="4">2. 본 제작은 1.5mm 하드보드 기준입니다. 같은 모양을 여러 장 잘라 붙여 두께를 만듭니다.</text>
+<text class="note" x="12" y="62" font-size="4">3. 필요한 실제 부품 수량:</text>
+<text class="note" x="18" y="76" font-size="4">- 전면판 2장, 후면판 2장</text>
+<text class="note" x="18" y="88" font-size="4">- 왼쪽 측판 2장, 오른쪽 측판 2장</text>
+<text class="note" x="18" y="100" font-size="4">- 바닥판 3장</text>
+<text class="note" x="18" y="112" font-size="4">- 앞 턱 2장</text>
+<text class="note" x="18" y="124" font-size="4">- 충전기 링 4장</text>
+<text class="note" x="18" y="136" font-size="4">- 시계 받침 2장</text>
+<text class="note" x="18" y="148" font-size="4">- 후면 고정판 2장</text>
+<text class="note" x="18" y="160" font-size="4">- 하부 보강대 2장</text>
+<text class="note" x="18" y="172" font-size="4">- 각도 게이지/풀 펴개는 조립 보조용이라 1장씩 선택</text>
+<text class="note" x="12" y="194" font-size="4">A4 출력 팁: 프린터 대화상자에서 '실제 크기', '100%', '배율 없음'을 고르세요.</text>
+<text class="note" x="12" y="206" font-size="4">출력 후 이 페이지의 50mm 선이 진짜 50mm인지 재고, 다르면 프린터 배율을 고치세요.</text>
+</svg>

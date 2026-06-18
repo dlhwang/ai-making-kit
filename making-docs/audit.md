@@ -39,3 +39,27 @@ Validation notes:
 - OpenSCAD CLI generated the listed files successfully.
 - Parallel OpenSCAD export occasionally triggered a Windows `read_symlink` error; sequential reruns succeeded.
 - SVG files should be treated as the exact 2D image/export references; PNG files are visual previews.
+
+## 2026-06-18 A4 Hand-Cut Template Update
+
+User clarified the fabrication method: print on A4 paper, place the print on hardboard, trace the outline, and cut by hand.
+
+Actions:
+
+- Added A4 1:1 SVG templates under `making-docs/exports/a4-templates/`.
+- Added Korean print/cut guide at `making-docs/exports/a4-print-guide-ko.md`.
+- Documented actual hand-cut quantities for 1.5mm hardboard layers.
+
+Important correction:
+
+- For hand cutting from 1.5mm sheet, thick parts must be made by cutting multiple identical layers and gluing them. The practical quantity list is more important than the earlier single large OpenSCAD layout preview.
+
+## 2026-06-18 Illustrated Manual Update
+
+User requested a Gunpla-style illustrated build manual, preferably HTML with images.
+
+Actions:
+
+- Added `making-docs/exports/build-manual-ko.html`.
+- The manual includes cover image, parts list, A4 template links, test coupon step, cutting workflow, layer stacking workflow, final assembly steps, and final checklist.
+- Existing OpenSCAD-exported PNG/SVG assets are reused as visual references.

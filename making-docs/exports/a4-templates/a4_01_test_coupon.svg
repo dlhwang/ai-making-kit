@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <style>
+    .cut { fill: none; stroke: #000; stroke-width: 0.35; }
+    .hole { fill: none; stroke: #000; stroke-width: 0.35; }
+    .guide { fill: none; stroke: #000; stroke-width: 0.25; stroke-dasharray: 2 1.5; }
+    .label { font-family: Arial, sans-serif; fill: #000; font-weight: 700; }
+    .note { font-family: Arial, sans-serif; fill: #000; }
+    .tiny { font-family: Arial, sans-serif; fill: #000; }
+  </style>
+  <rect x="0" y="0" width="210" height="297" fill="white"/>
+  <rect class="guide" x="5" y="5" width="200" height="287"/>
+  <text class="label" x="8" y="12" font-size="4.5">A4 01 - 테스트 쿠폰 먼저 자르기</text>
+  <text class="note" x="8" y="18" font-size="3.1">인쇄 설정: A4, 실제 크기 100%, 페이지 맞춤/축소 금지. 아래 50mm 선을 자로 확인.</text>
+  <line class="cut" x1="8" y1="24" x2="58" y2="24"/>
+  <text class="note" x="8" y="28" font-size="3">50mm scale check</text>
+  <text class="label" x="15" y="38" font-size="4">이 페이지는 풀 제작 전에 1번만 자릅니다.</text>
+<path class="cut" d="M 21 55 H 61 Q 64 55 64 58 V 86 Q 64 89 61 89 H 21 Q 18 89 18 86 V 58 Q 18 55 21 55 Z"/>
+<path class="hole" d="M 29.5 63 H 29.95 Q 31.45 63 31.45 64.5 V 79.95 Q 31.45 81.45 29.95 81.45 H 29.5 Q 28 81.45 28 79.95 V 64.5 Q 28 63 29.5 63 Z"/>
+<path class="hole" d="M 46.5 63 H 47.35 Q 48.85 63 48.85 64.5 V 80.35 Q 48.85 81.85 47.35 81.85 H 46.5 Q 45 81.85 45 80.35 V 64.5 Q 45 63 46.5 63 Z"/>
+<text class="label" x="18" y="52" font-size="3.2">탭 구멍 테스트</text>
+<path class="cut" d="M 80 55 H 94 Q 96 55 96 57 V 63 Q 96 65 94 65 H 80 Q 78 65 78 63 V 57 Q 78 55 80 55 Z"/>
+<text class="label" x="78" y="52" font-size="3.2">탭</text>
+<path class="cut" d="M 124.5 55 H 157.4 Q 165.9 55 165.9 63.5 V 96.4 Q 165.9 104.9 157.4 104.9 H 124.5 Q 116 104.9 116 96.4 V 63.5 Q 116 55 124.5 55 Z"/>
+<path class="hole" d="M 124.5 59.5 H 157.4 Q 161.4 59.5 161.4 63.5 V 96.4 Q 161.4 100.4 157.4 100.4 H 124.5 Q 120.5 100.4 120.5 96.4 V 63.5 Q 120.5 59.5 124.5 59.5 Z"/>
+<text class="label" x="116" y="53" font-size="3.2">충전기 링 1/4</text>
+<path class="cut" d="M 22 112 H 48 Q 52 112 52 116 V 121 Q 52 125 48 125 H 22 Q 18 125 18 121 V 116 Q 18 112 22 112 Z"/>
+<text class="label" x="18" y="109" font-size="3.2">스트랩 구멍</text>
+<path class="cut" d="M 81 112 H 85 Q 88 112 88 115 V 153 Q 88 156 85 156 H 81 Q 78 156 78 153 V 115 Q 78 112 81 112 Z"/>
+<text class="label" x="78" y="109" font-size="3.2">케이블 홈</text>
+<path class="cut" d="M 116 123 L 178 123 L 178 153.23942049108342 Z"/>
+<path class="hole" d="M 126 129 H 142 Q 144 129 144 131 V 135 Q 144 137 142 137 H 126 Q 124 137 124 135 V 131 Q 124 129 126 129 Z"/>
+<text class="label" x="116" y="121" font-size="3.2">각도 게이지 선택 x1</text>
+<path class="cut" d="M 20 174 H 78 Q 80 174 80 176 V 188 Q 80 190 78 190 H 20 Q 18 190 18 188 V 176 Q 18 174 20 174 Z"/>
+<path class="hole" d="M 47 176 H 51 Q 54 176 54 179 V 185 Q 54 188 51 188 H 47 Q 44 188 44 185 V 179 Q 44 176 47 176 Z"/>
+<text class="label" x="18" y="172" font-size="3.2">하부 보강대 1/2</text>
+</svg>

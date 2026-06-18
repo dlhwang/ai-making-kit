@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <style>
+    .cut { fill: none; stroke: #000; stroke-width: 0.35; }
+    .hole { fill: none; stroke: #000; stroke-width: 0.35; }
+    .guide { fill: none; stroke: #000; stroke-width: 0.25; stroke-dasharray: 2 1.5; }
+    .label { font-family: Arial, sans-serif; fill: #000; font-weight: 700; }
+    .note { font-family: Arial, sans-serif; fill: #000; }
+    .tiny { font-family: Arial, sans-serif; fill: #000; }
+  </style>
+  <rect x="0" y="0" width="210" height="297" fill="white"/>
+  <rect class="guide" x="5" y="5" width="200" height="287"/>
+  <text class="label" x="8" y="12" font-size="4.5">A4 02 - 전면판/후면판</text>
+  <text class="note" x="8" y="18" font-size="3.1">인쇄 설정: A4, 실제 크기 100%, 페이지 맞춤/축소 금지. 아래 50mm 선을 자로 확인.</text>
+  <line class="cut" x1="8" y1="24" x2="58" y2="24"/>
+  <text class="note" x="8" y="28" font-size="3">50mm scale check</text>
+  <path class="cut" d="M 20 42 H 94 Q 96 42 96 44 V 156 Q 96 158 94 158 H 20 Q 18 158 18 156 V 44 Q 18 42 20 42 Z"/>
+<path class="hole" d="M 46 146 H 68 Q 72 146 72 150 V 151 Q 72 155 68 155 H 46 Q 42 155 42 151 V 150 Q 42 146 46 146 Z"/>
+<path class="hole" d="M 40.55 95.55 H 73.44999999999999 Q 77.44999999999999 95.55 77.44999999999999 99.55 V 132.45 Q 77.44999999999999 136.45 73.44999999999999 136.45 H 40.55 Q 36.55 136.45 36.55 132.45 V 99.55 Q 36.55 95.55 40.55 95.55 Z"/>
+<path class="hole" d="M 48 81 H 66 Q 70 81 70 85 V 88 Q 70 92 66 92 H 48 Q 44 92 44 88 V 85 Q 44 81 48 81 Z"/>
+<path class="hole" d="M 44 77.5 H 70 Q 74 77.5 74 81.5 V 86.5 Q 74 90.5 70 90.5 H 44 Q 40 90.5 40 86.5 V 81.5 Q 40 77.5 44 77.5 Z"/>
+<text class="label" x="18" y="39" font-size="4">전면판 FRONT x2</text>
+<path class="cut" d="M 116 42 H 190 Q 192 42 192 44 V 156 Q 192 158 190 158 H 116 Q 114 158 114 156 V 44 Q 114 42 116 42 Z"/>
+<circle class="hole" cx="153" cy="116" r="7"/>
+<path class="hole" d="M 151 49 H 155 Q 158 49 158 52 V 106 Q 158 109 155 109 H 151 Q 148 109 148 106 V 52 Q 148 49 151 49 Z"/>
+<path class="hole" d="M 145 108 H 161 Q 166 108 166 113 V 119 Q 166 124 161 124 H 145 Q 140 124 140 119 V 113 Q 140 108 145 108 Z"/>
+<text class="label" x="114" y="39" font-size="4">후면판 REAR x2</text>
+<text class="note" x="18" y="174" font-size="4">전면판 2장, 후면판 2장을 잘라서 같은 것끼리 겹쳐 붙입니다.</text>
+<text class="note" x="18" y="186" font-size="4">전면 큰 사각 구멍은 충전기가 들어가는 자리입니다.</text>
+<text class="note" x="18" y="198" font-size="4">후면 긴 홈은 케이블이 내려오는 길입니다.</text>
+</svg>

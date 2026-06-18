@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
+  <style>
+    .cut { fill: none; stroke: #000; stroke-width: 0.35; }
+    .hole { fill: none; stroke: #000; stroke-width: 0.35; }
+    .guide { fill: none; stroke: #000; stroke-width: 0.25; stroke-dasharray: 2 1.5; }
+    .label { font-family: Arial, sans-serif; fill: #000; font-weight: 700; }
+    .note { font-family: Arial, sans-serif; fill: #000; }
+    .tiny { font-family: Arial, sans-serif; fill: #000; }
+  </style>
+  <rect x="0" y="0" width="297" height="210" fill="white"/>
+  <rect class="guide" x="5" y="5" width="287" height="200"/>
+  <text class="label" x="8" y="12" font-size="4.5">A4 04 - 측판 왼쪽/오른쪽</text>
+  <text class="note" x="8" y="18" font-size="3.1">인쇄 설정: A4, 실제 크기 100%, 페이지 맞춤/축소 금지. 아래 50mm 선을 자로 확인.</text>
+  <line class="cut" x1="8" y1="24" x2="58" y2="24"/>
+  <text class="note" x="8" y="28" font-size="3">50mm scale check</text>
+  <path class="cut" d="M 18 56 L 120 56 L 120 172 L 101 172 L 37 75 L 18 75 Z"/>
+<path class="cut" d="M 43.5 46 H 58.5 Q 60 46 60 47.5 V 54.6 Q 60 56.1 58.5 56.1 H 43.5 Q 42 56.1 42 54.6 V 47.5 Q 42 46 43.5 46 Z"/>
+<path class="cut" d="M 89.5 46 H 104.5 Q 106 46 106 47.5 V 54.6 Q 106 56.1 104.5 56.1 H 89.5 Q 88 56.1 88 54.6 V 47.5 Q 88 46 89.5 46 Z"/>
+<path class="hole" d="M 107 74 H 111 Q 114 74 114 77 V 101 Q 114 104 111 104 H 107 Q 104 104 104 101 V 77 Q 104 74 107 74 Z"/>
+<text class="label" x="18" y="43" font-size="4">왼쪽 측판 SIDE 1/2</text>
+<path class="cut" d="M 260 56 L 158 56 L 158 172 L 177 172 L 241 75 L 260 75 Z"/>
+<path class="cut" d="M 219.5 46 H 234.5 Q 236 46 236 47.5 V 54.6 Q 236 56.1 234.5 56.1 H 219.5 Q 218 56.1 218 54.6 V 47.5 Q 218 46 219.5 46 Z"/>
+<path class="cut" d="M 173.5 46 H 188.5 Q 190 46 190 47.5 V 54.6 Q 190 56.1 188.5 56.1 H 173.5 Q 172 56.1 172 54.6 V 47.5 Q 172 46 173.5 46 Z"/>
+<path class="hole" d="M 167 74 H 171 Q 174 74 174 77 V 101 Q 174 104 171 104 H 167 Q 164 104 164 101 V 77 Q 164 74 167 74 Z"/>
+<text class="label" x="158" y="43" font-size="4">오른쪽 측판 SIDE 1/2</text>
+<text class="note" x="18" y="178" font-size="4">이 페이지의 왼쪽/오른쪽 측판 세트를 2번 따라 그립니다.</text>
+<text class="note" x="18" y="190" font-size="4">결과: 왼쪽 측판 2장 + 오른쪽 측판 2장.</text>
+<text class="note" x="18" y="202" font-size="4">초보자는 가운데 큰 삼각 구멍 없는 이 템플릿을 쓰는 것이 더 튼튼합니다.</text>
+</svg>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <style>
+    .cut { fill: none; stroke: #000; stroke-width: 0.35; }
+    .hole { fill: none; stroke: #000; stroke-width: 0.35; }
+    .guide { fill: none; stroke: #000; stroke-width: 0.25; stroke-dasharray: 2 1.5; }
+    .label { font-family: Arial, sans-serif; fill: #000; font-weight: 700; }
+    .note { font-family: Arial, sans-serif; fill: #000; }
+    .tiny { font-family: Arial, sans-serif; fill: #000; }
+  </style>
+  <rect x="0" y="0" width="210" height="297" fill="white"/>
+  <rect class="guide" x="5" y="5" width="200" height="287"/>
+  <text class="label" x="8" y="12" font-size="4.5">A4 05 - 작은 부품 전부</text>
+  <text class="note" x="8" y="18" font-size="3.1">인쇄 설정: A4, 실제 크기 100%, 페이지 맞춤/축소 금지. 아래 50mm 선을 자로 확인.</text>
+  <line class="cut" x1="8" y1="24" x2="58" y2="24"/>
+  <text class="note" x="8" y="28" font-size="3">50mm scale check</text>
+  <path class="cut" d="M 14 42 H 88 Q 90 42 90 44 V 56 Q 90 58 88 58 H 14 Q 12 58 12 56 V 44 Q 12 42 14 42 Z"/>
+<text class="label" x="12" y="40" font-size="3.2">앞 턱 1/2</text>
+<path class="cut" d="M 114 42 H 188 Q 190 42 190 44 V 56 Q 190 58 188 58 H 114 Q 112 58 112 56 V 44 Q 112 42 114 42 Z"/>
+<text class="label" x="112" y="40" font-size="3.2">앞 턱 2/2</text>
+<path class="cut" d="M 20.5 82 H 53.4 Q 61.9 82 61.9 90.5 V 123.4 Q 61.9 131.9 53.4 131.9 H 20.5 Q 12 131.9 12 123.4 V 90.5 Q 12 82 20.5 82 Z"/>
+<path class="hole" d="M 20.5 86.5 H 53.4 Q 57.4 86.5 57.4 90.5 V 123.4 Q 57.4 127.4 53.4 127.4 H 20.5 Q 16.5 127.4 16.5 123.4 V 90.5 Q 16.5 86.5 20.5 86.5 Z"/>
+<text class="label" x="12" y="80" font-size="3.2">충전기 링 1/4</text>
+<path class="cut" d="M 90.5 82 H 123.4 Q 131.9 82 131.9 90.5 V 123.4 Q 131.9 131.9 123.4 131.9 H 90.5 Q 82 131.9 82 123.4 V 90.5 Q 82 82 90.5 82 Z"/>
+<path class="hole" d="M 90.5 86.5 H 123.4 Q 127.4 86.5 127.4 90.5 V 123.4 Q 127.4 127.4 123.4 127.4 H 90.5 Q 86.5 127.4 86.5 123.4 V 90.5 Q 86.5 86.5 90.5 86.5 Z"/>
+<text class="label" x="82" y="80" font-size="3.2">충전기 링 2/4</text>
+<path class="cut" d="M 20.5 150 H 53.4 Q 61.9 150 61.9 158.5 V 191.4 Q 61.9 199.9 53.4 199.9 H 20.5 Q 12 199.9 12 191.4 V 158.5 Q 12 150 20.5 150 Z"/>
+<path class="hole" d="M 20.5 154.5 H 53.4 Q 57.4 154.5 57.4 158.5 V 191.4 Q 57.4 195.4 53.4 195.4 H 20.5 Q 16.5 195.4 16.5 191.4 V 158.5 Q 16.5 154.5 20.5 154.5 Z"/>
+<text class="label" x="12" y="148" font-size="3.2">충전기 링 3/4</text>
+<path class="cut" d="M 90.5 150 H 123.4 Q 131.9 150 131.9 158.5 V 191.4 Q 131.9 199.9 123.4 199.9 H 90.5 Q 82 199.9 82 191.4 V 158.5 Q 82 150 90.5 150 Z"/>
+<path class="hole" d="M 90.5 154.5 H 123.4 Q 127.4 154.5 127.4 158.5 V 191.4 Q 127.4 195.4 123.4 195.4 H 90.5 Q 86.5 195.4 86.5 191.4 V 158.5 Q 86.5 154.5 90.5 154.5 Z"/>
+<text class="label" x="82" y="148" font-size="3.2">충전기 링 4/4</text>
+<path class="cut" d="M 145 110.65 A 28.65 28.65 0 0 0 202.3 110.65"/>
+<path class="hole" d="M 148.75 110.65 A 24.9 24.9 0 0 0 198.55 110.65"/>
+<line class="cut" x1="145" y1="110.65" x2="148.75" y2="110.65"/>
+<line class="cut" x1="198.55" y1="110.65" x2="202.3" y2="110.65"/>
+<text class="label" x="145" y="74" font-size="3.2">시계 받침 1/2</text>
+<path class="cut" d="M 145 176.65 A 28.65 28.65 0 0 0 202.3 176.65"/>
+<path class="hole" d="M 148.75 176.65 A 24.9 24.9 0 0 0 198.55 176.65"/>
+<line class="cut" x1="145" y1="176.65" x2="148.75" y2="176.65"/>
+<line class="cut" x1="198.55" y1="176.65" x2="202.3" y2="176.65"/>
+<text class="label" x="145" y="140" font-size="3.2">시계 받침 2/2</text>
+<path class="cut" d="M 15 218 H 66.5 Q 69.5 218 69.5 221 V 233 Q 69.5 236 66.5 236 H 15 Q 12 236 12 233 V 221 Q 12 218 15 218 Z"/>
+<circle class="hole" cx="40.75" cy="227" r="7"/>
+<text class="label" x="12" y="216" font-size="3.2">후면 고정판 1/2</text>
+<path class="cut" d="M 85 218 H 136.5 Q 139.5 218 139.5 221 V 233 Q 139.5 236 136.5 236 H 85 Q 82 236 82 233 V 221 Q 82 218 85 218 Z"/>
+<circle class="hole" cx="110.75" cy="227" r="7"/>
+<text class="label" x="82" y="216" font-size="3.2">후면 고정판 2/2</text>
+<path class="cut" d="M 14 258 H 72 Q 74 258 74 260 V 272 Q 74 274 72 274 H 14 Q 12 274 12 272 V 260 Q 12 258 14 258 Z"/>
+<path class="hole" d="M 41 260 H 45 Q 48 260 48 263 V 269 Q 48 272 45 272 H 41 Q 38 272 38 269 V 263 Q 38 260 41 260 Z"/>
+<text class="label" x="12" y="256" font-size="3.2">하부 보강대 1/2</text>
+<path class="cut" d="M 84 258 H 142 Q 144 258 144 260 V 272 Q 144 274 142 274 H 84 Q 82 274 82 272 V 260 Q 82 258 84 258 Z"/>
+<path class="hole" d="M 111 260 H 115 Q 118 260 118 263 V 269 Q 118 272 115 272 H 111 Q 108 272 108 269 V 263 Q 108 260 111 260 Z"/>
+<text class="label" x="82" y="256" font-size="3.2">하부 보강대 2/2</text>
+<path class="cut" d="M 145 210 L 207 210 L 207 240.23942049108342 Z"/>
+<path class="hole" d="M 155 216 H 171 Q 173 216 173 218 V 222 Q 173 224 171 224 H 155 Q 153 224 153 222 V 218 Q 153 216 155 216 Z"/>
+<text class="label" x="145" y="208" font-size="3.2">각도 게이지 선택 x1</text>
+<path class="cut" d="M 147 258 H 201 Q 203 258 203 260 V 267 Q 203 269 201 269 H 147 Q 145 269 145 267 V 260 Q 145 258 147 258 Z"/>
+<text class="label" x="145" y="256" font-size="3.2">풀 펴개 선택 x1</text>
+</svg>

@@ -61,3 +61,16 @@ Generated from `xiaomi_watch_s4_cardboard_dock_hardboard_v2.scad` using OpenSCAD
 - Use SVG files for exact 2D inspection or downstream vector export.
 - PNG files are visual references and may not preserve exact scale.
 - Cut the test coupon before the full layout and update the SCAD parameters from real fit results.
+
+## A4 Hand-Cut Templates
+
+For printing on A4 paper and tracing onto hardboard, use:
+
+- `build-manual-ko.html`
+- `../a4-print-guide-ko.md`
+- `a4-templates/a4_00_cut_list.svg`
+- `a4-templates/a4_01_test_coupon.svg`
+- `a4-templates/a4_02_front_rear.svg`
+- `a4-templates/a4_03_base.svg`
+- `a4-templates/a4_04_side_panels.svg`
+- `a4-templates/a4_05_small_parts.svg`
