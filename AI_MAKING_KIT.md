@@ -52,6 +52,20 @@ ai-making-rule-details/
   operations/
 ```
 
+## Samples
+
+Example projects made with this kit live under:
+
+```text
+samples/
+```
+
+Current sample:
+
+```text
+samples/xiaomi-watch-s4-hardboard-charging-dock/
+```
+
 ## Design Philosophy
 
 The kit treats physical design as a complete making package, not a CAD file alone.
@@ -71,4 +85,3 @@ Every mature project should move toward:
 ## Version
 
 Initial local kit version: `0.1.0`
-

@@ -73,6 +73,7 @@ Always execute:
 Conditional:
 
 - Existing Design Review
+- Measured Specs
 - User And Scenario Analysis
 - Risk And Safety Review
 - Work Units Generation
@@ -90,10 +91,12 @@ Always execute when producing deliverables:
 Conditional:
 
 - CAD/CAM Deliverable Design
+- Test Coupon Report
 - Prototype Plan
 - Assembly Guide Creation
 - Beginner Buildability Review
 - Quality Criteria
+- Quality Gate Review
 
 ### OPERATIONS PHASE
 
@@ -147,6 +150,15 @@ Execute when an existing CAD/drawing/prototype is provided.
 3. Create measurement tables distinguishing known values, assumed values, and missing values.
 4. Generate `making-docs/inception/measurements/measurement-plan.md`.
 
+### Measured Specs
+
+Execute when real material, parts, tools, prototypes, or user-provided measurements are available.
+
+1. Load `inception/measured-specs.md`.
+2. Record actual measured values separately from assumptions, source/catalog values, and user-confirmed values.
+3. Identify parameter/file updates and measurements still blocking fabrication readiness.
+4. Generate `making-docs/inception/measurements/measured-specs.md`.
+
 ### User And Scenario Analysis
 
 Execute when daily use, ergonomics, beginner assembly, multiple users, safety, or maintainability matters.
@@ -189,6 +201,15 @@ Execute when tools, heat, electricity, loads, sharp edges, structural support, o
 2. Create a small test artifact for material fit, kerf, slots, holes, tabs, bends, and critical interfaces.
 3. Make test coupon output easy to export.
 
+### Test Coupon Report
+
+Execute after a physical test coupon is cut/printed/machined or when the user reports coupon results.
+
+1. Load `execution/test-coupon-report.md`.
+2. Record material, tool settings, feature fit results, failures, and parameter changes.
+3. Decide whether the coupon passes, passes with changes, or fails.
+4. Generate `making-docs/execution/tests/test-coupon-report.md`.
+
 ### Prototype Plan
 
 1. Load `execution/prototype-plan.md`.
@@ -210,10 +231,19 @@ Execute when tools, heat, electricity, loads, sharp edges, structural support, o
 1. Load `execution/quality-criteria.md`.
 2. Define accuracy, fit, buildability, safety, usability, documentation, and export criteria.
 
+### Quality Gate Review
+
+Execute when claiming concept-ready, prototype-ready, fabrication-ready, or release-ready status.
+
+1. Load `execution/quality-gate-review.md`.
+2. Apply Gate 0 through Gate 8 as relevant.
+3. Record pass, pass with issues, blocked, or not applicable for each gate.
+4. Generate `making-docs/execution/review/quality-gate-review.md`.
+
 ### Review And Validation
 
 1. Load `execution/review-and-validation.md`.
-2. Validate deliverables against requirements, material constraints, export commands, test coupon coverage, and beginner buildability.
+2. Validate deliverables against requirements, material constraints, export commands, measured specs, test coupon coverage/report, quality gate status, and beginner buildability.
 3. Create `making-docs/execution/review/review-summary.md`.
 
 ## OPERATIONS PHASE
@@ -237,4 +267,3 @@ Execute when tools, heat, electricity, loads, sharp edges, structural support, o
 
 1. Load `operations/maintenance-and-versioning.md`.
 2. Define version names, changelog, compatibility notes, and future measurement updates.
-

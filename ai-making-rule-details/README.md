@@ -19,6 +19,7 @@ Always load at workflow start:
 - `inception/making-requirements-analysis.md`
 - `inception/material-and-fabrication-analysis.md`
 - `inception/measurement-plan.md`
+- `inception/measured-specs.md`
 - `inception/user-and-scenario-analysis.md`
 - `inception/risk-and-safety-review.md`
 - `inception/making-work-planning.md`
@@ -29,10 +30,12 @@ Always load at workflow start:
 - `execution/cad-cam-deliverable-design.md`
 - `execution/design-package-creation.md`
 - `execution/test-coupon-design.md`
+- `execution/test-coupon-report.md`
 - `execution/prototype-plan.md`
 - `execution/assembly-guide-creation.md`
 - `execution/beginner-buildability-review.md`
 - `execution/quality-criteria.md`
+- `execution/quality-gate-review.md`
 - `execution/review-and-validation.md`
 
 ## Operations Files
@@ -41,4 +44,3 @@ Always load at workflow start:
 - `operations/revision-backlog.md`
 - `operations/release-package.md`
 - `operations/maintenance-and-versioning.md`
-
